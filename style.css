@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(50, 81%, 56%);
+    color: #333;
+}
