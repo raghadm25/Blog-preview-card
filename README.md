@@ -36,7 +36,7 @@ Users should be able to:
 ### Links:
 
 - 🌐 **Live Site URL**: [https://raghadm25.github.io/Blog-preview-card/](https://raghadm25.github.io/Blog-preview-card/)
-- [Frontend Mentor Profile](https://www.frontendmentor.io/profile/raghadm25)
+- **Frontend Mentor Profile**: [https://www.frontendmentor.io/profile/raghadm25]
 
 ---
 
