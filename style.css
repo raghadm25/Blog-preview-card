@@ -1,14 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: hsl(50, 81%, 56%);
-    color: #333;
+  font-family: 'Figtree', sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 black;
+  max-width: 384px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.illustration {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.status  {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  font-weight: 800;
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border-radius: 5px;
+  line-height: 1;
+  width: fit-content;
+
+}
+
+.date {
+  font-size: 0.85rem;
+  color: hsl(0, 0%, 42%)
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.title a {
+  color: black;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  font-size: 0.95rem;
+  color: hsl(0, 0%, 40%);
+  line-height: 1.5;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author {
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: black;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  color: hsl(229, 100%, 58%);
 }
